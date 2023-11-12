@@ -1,16 +1,14 @@
-//var ajax_card_url="https://apioauth.ynwlzc.net/cyberwin/CyberWinMiniPro.php/CyberWin_Pos_gasStationAPI/ajax_card_snowlotus/";
-//http://apihardware.ynwlzc.net/cyberwin/CyberWinAPI.php/TSHOTEL/77?action=getHotelRoomInfoesByCondition&device_sn=ffffffff-ef89-9d41-ef89-9d4100000000
-var ajax_root="http://apihardware.ynwlzc.net/cyberwin/CyberWinAPI.php/TSHOTEL/";//"https://apioauth.ynwlzc.net/cyberwin/CyberWinMiniPro.php/CyberWin_Pos_gasStationAPI/";
+var ajax_root="";
 //TSDACStore
- ajax_root="http://apihardware.ynwlzc.net/cyberwin/CyberWinAPI.php/TSDACStore/";//"https://apioauth.ynwlzc.net/cyberwin/CyberWinMiniPro.php/CyberWin_Pos_gasStationAPI/";
+ ajax_root="";
 
-var c_mer_id="77";
-var c_store_id="72";
-var c_store_name="未来之窗软件";
+var c_mer_id="";
+var c_store_id="";
+var c_store_name="";
 
 var is_admin_device = 0;//管理
-var wlzc_pwdkey = "wlzc_hotel_pk2023";
-var hotel_deposit_rk_time_end_default="12:00";
+var wlzc_pwdkey = "";
+var hotel_deposit_rk_time_end_default="";
 //2023-7-19 10寸 7寸
 var hotel_room_showmode="7寸";
 var device_screenmode = "10寸";//7寸
@@ -44,9 +42,6 @@ var 未来之窗app_通用ID="cyberwin_hotel_id_store";//cyberwin_shopnew_id_sto
 
 //未来之窗 dac
 //login_check
-var 未来之窗cyberwin_client_sessionapi="https://apioauth.ynwlzc.net/cyberwin/CyberWinAuthen.php?c=Merchant_Manager_Oauth&a=Pc_ClientOauthV3_QR&a=Cashier_Staff_LoginV2024";
-//https://apioauth.ynwlzc.net/cyberwin/CyberWinAuthen.php?c=Merchant_Manager_Oauth&a=Pc_ClientOauthV3_QR&a=Pc_ClientOauthV3_QR_ajax";
-	//			$.get(未来之窗检测2023年,{qrcode_id:未来之窗登录_qrcode_id,ticket:未来之窗登录_qrcode_ticket},function(result){
 var 未来之窗_bridge_user = "";
 //2023-9-16
 var 未来之窗_bridge_staffinfo = "";
