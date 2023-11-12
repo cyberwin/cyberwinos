@@ -1,0 +1,83 @@
+		/*
+		.tableMain{
+
+		background: url(https://51.onelink.ynwlzc.cn/o2o/tpl/Pos/default/CyberWin_Treade_KTV/ktv_bg.png) repeat-x;
+		   background-size:1920px 1080px;
+		}
+		*/
+
+.mainBox{
+    z-index: -99;
+    position: fixed;
+}
+		.tableMain .table_tab_box .table_tab{
+			margin: 20 auto;
+			width: 95%;
+			overflow: hidden;
+		}
+		.tableMain .tabele_cat_2024{
+		height:65px;
+		margin-top:8px;
+		margin: 25px 60px 15px;
+		}
+
+.tableMain .tabele_cat_2024 li {
+    float: left; 
+    background-color: #F6FAFF;
+    height: 80px;
+    width: 120px;
+    line-height: 80px;
+    text-align: center;
+    margin-right: 10px;
+    border: 1px solid #ECECEC;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    list-style: none;
+}
+/*2023-7-22*/
+
+
+		.cwpd_tablesel{
+		   float:right;
+		   color:red;
+		   font-size:32px;
+		   position:fixed;
+		   display:none;
+		}
+
+		.headerBox{
+		 
+           font-size: 15px;
+		   height: 30px;
+		       line-height: 30px;
+		}
+
+
+ img{
+	     vertical-align: middle;
+ }
+/*Ëõ·Å²¼¾Ö2023-9-16*/
+ .tableMain .table_body li{
+   /* height: 162px;
+    height: 120px;*/
+	 height: 95px;
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 8px;
+    margin-right: 10px;
+	width: 150px;
+ }
+
+ .tableMain .table_body li .cat_name{
+	 font-size: 16px;
+	 font-weight: 700;
+	 height:22px;
+ }
+   
+
+ cybera{
+  cursor: pointer;
+ }
