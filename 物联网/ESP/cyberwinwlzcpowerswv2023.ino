@@ -2,10 +2,10 @@
 #include <PubSubClient.h>
 int deng = 0;  //IO14(D5)
 const char* ssid = "ynwlzc";
-const char* password = "12345678";
-const char* mqtt_server = "51.onelink.ynwlzc.cn"; // 使用HIVEMQ 的信息中转服务
-const char* TOPIC = "20230703124550016";              // 订阅信息主题
-const char* client_id = "20230703124550016";     // 标识当前设备的客户端编号
+const char* password = "WiFi密码";
+const char* mqtt_server = "mq服务器地址域名或者ip"; // 使用HIVEMQ 的信息中转服务
+const char* TOPIC = "订阅信息主题";              // 订阅信息主题
+const char* client_id = "标识当前设备的客户端编号";     // 标识当前设备的客户端编号
 
 WiFiClient espClient;                                                         // 定义wifiClient实例
 PubSubClient client(espClient);                                         // 定义PubSubClient的实例
